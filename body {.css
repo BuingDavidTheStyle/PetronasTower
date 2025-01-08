@@ -1,0 +1,48 @@
+body {
+    background-image: url('1.jpg'); /* Chemin de votre image */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-position: left; /* Centrer l'image */
+} 
+.image-droite {
+    position: relative; /* Relatif à sa position normale */
+    left: 100px; /* Déplace l'image de 100px vers la droite */
+}
+
+h1 {
+    text-align: center;
+} 
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+h3 {
+    
+        font-size: 20px; /* Taille du texte */
+        font-weight: bold; /* Rendre le texte en gras */
+        background: linear-gradient(to right, red, green); /* Dégradé */
+        
+        /* Compatibilité */
+        -webkit-background-clip: text; /* Version pour WebKit (Chrome, Safari, Edge basé sur Chromium) */
+        background-clip: text; /* Version standardisée (navigateurs modernes) */
+        
+        -webkit-text-fill-color: transparent; /* Rend le texte transparent pour afficher le fond */
+        -webkit-text-fill-color: transparent; /* Version standardisée */
+    
+}
